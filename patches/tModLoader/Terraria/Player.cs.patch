@@ -5370,7 +5370,7 @@
  		bool flag = !immune;
  		bool flag2 = false;
  		int hitContext = cooldownCounter;
-@@ -29530,7 +_,34 @@
+@@ -29530,7 +_,36 @@
  		}
  
  		if (flag) {
@@ -5388,6 +5388,7 @@
 +			modifiers.ScalingArmorPenetration += scalingArmorPenetration;
 +
 +			// ogre knockback re-implemented from below
+-			if (dodgeable) {
 +			if (flag2) {
 +				// this gives the right values for X knockback.
 +				// Y knockback will be slightly different, but mostly accurate
@@ -5397,8 +5398,10 @@
 +
 +			ApplyVanillaHurtEffectModifiers(ref modifiers);
 +			info = modifiers.ToHurtInfo(Damage, statDefense, pvp ? 0.5f : DefenseEffectiveness.Value, knockback, noKnockback);
++			if (info.Cancelled)
++				return 0.0;
 +
- 			if (dodgeable) {
++			if (info.Dodgeable) {
 +				if (whoAmI == Main.myPlayer && PlayerLoader.FreeDodge(this, info))
 +					return 0.0;
 +
