@@ -1,4 +1,5 @@
 name: Build tModLoader
+#NOTE: this doesn't auto sync to other branches. 
 
 env:
     DevBranch: 1.4.4
