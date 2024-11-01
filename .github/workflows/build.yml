@@ -1,6 +1,6 @@
 name: Build tModLoader
 
-env:
+eeeeeeeeeeeeeeeeeeeeeeeenv:
     DevBranch: 1.4.4
     StableBranch: stable
     PreviewBranch: preview
