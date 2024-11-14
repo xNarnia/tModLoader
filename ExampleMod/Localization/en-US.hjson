@@ -226,7 +226,11 @@ Mods: {
 			WaspNest: {
 				DisplayName: Wasp Nest
 				# Here we use a vanilla language key to copy the tooltip from HiveBackpack
-				Tooltip: "{$ItemTooltip.HiveBackpack}"
+				Tooltip:
+					'''
+					{$ItemTooltip.HiveBackpack}
+					Releases bees when damaged
+					'''
 			}
 
 			ExampleBullet: {
