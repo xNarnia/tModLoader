@@ -785,6 +785,14 @@
  	public static bool MechSpawn(float x, float y, int type)
  	{
  		int num = 0;
+@@ -1263,6 +_,7 @@
+ 		return true;
+ 	}
+ 
++	/// <summary> Retrieves the default head index of the town NPC type. To account for shimmer and other variants use <see cref="TownNPCProfiles.GetHeadIndexSafe(NPC)"/> instead. Returns -1 if no head index found. </summary>
+ 	public static int TypeToDefaultHeadIndex(int type)
+ 	{
+ 		switch (type) {
 @@ -1345,7 +_,10 @@
  			case 684:
  				return 53;
