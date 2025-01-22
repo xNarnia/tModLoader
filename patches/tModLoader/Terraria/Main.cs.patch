@@ -1634,7 +1634,7 @@
 +						Console.WriteLine(entry.Item1 + new string('\t', num2 - entry.Item1.Length / 8) + entry.Item2);
 +					}
  				}
-+				else if (CommandLoader.HandleCommand(text, commandCaller)) { }
++				else if (CommandLoader.HandleCommand(text2, commandCaller)) { }
  				else if (text == Language.GetTextValue("CLI.Settle_Command")) {
  					if (!Liquid.panicMode)
  						Liquid.StartPanic();
