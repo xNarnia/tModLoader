@@ -200,6 +200,7 @@
 		"LoadErrorDependencyMissing": "Отсутствует мод: Для правильной работы {1} требуется {0}",
 		"LoadErrorErrorReadingModFile": "Ошибка при чтении файла мода {0}",
 		"LoadErrorHashMismatchCorrupted": "Несоответствие хэшей, массив данных был изменён или повреждён",
+		// "LoadErrorHashMismatchCorruptedWithModName": "Unable to verify integrity of {0}: hash mismatch; data blob has been modified or corrupted",
 		"LoadErrorDependencyVersionTooLow": "Для {0} необходим {2} версии {1} или выше, но у вас установлена версия {3}.",
 		"LoadErrorMajorVersionMismatch": "{0} поддерживает {2} версии {1}, но у вас установлено новое крупное обновление с версией ({3}), которая может быть несовместима. {0} необходимо обновить.",
 		"LoadErrorRecentlyBuiltLocalModWithLowerVersionWorkshop": "Мод {0} версии {1} был недавно собран, но не был загружён, так как подписанная версия из Мастерской ({2}) является более новой.\nЛибо обновите файл build.txt и пересоберите мод, либо временно отпишитесь от мода.",
@@ -320,6 +321,7 @@
 		"ReloadRequiredExplanationDisable": "[c/{0}:Отключение]",
 		"ReloadRequiredExplanationConfigChanged": "Временное [c/{0}:изменение конфигурации]",
 		"ReloadRequiredExplanationConfigChangedRestore": "[c/{0}:Восстановление конфигурации]",
+		// "ReloadRequiredHostAndPlayModWasDisabledHint": "It is possible that a mod you had previously enabled has errors when run on the server and has been automatically disabled. Check server.log to investigate these issues. Click here to open the FAQ for this issue.",
 
 		// UIAsyncList
 		"ALLoading": "Загрузка...",
