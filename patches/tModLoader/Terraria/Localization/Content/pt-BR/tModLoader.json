@@ -200,6 +200,7 @@
 		"LoadErrorDependencyMissing": "Mod não encontrado: {0} necessário por {1}",
 		"LoadErrorErrorReadingModFile": "Erro ao ler o arquivo de mod {0}",
 		"LoadErrorHashMismatchCorrupted": "Hash incompatível, o blob de dados foi modificado ou corrompido",
+		// "LoadErrorHashMismatchCorruptedWithModName": "Unable to verify integrity of {0}: hash mismatch; data blob has been modified or corrupted",
 		"LoadErrorDependencyVersionTooLow": "{0} requer a versão {1} ou maior de {2} mas a versão {3} está instalada",
 		"LoadErrorMajorVersionMismatch": "{0} destina-se à versão {1} de {2}, mas você possui uma versão principal mais recente ({3}) que pode não ser compatível. {0} deve ser atualizado.",
 		"LoadErrorRecentlyBuiltLocalModWithLowerVersionWorkshop": "{0} v{1} foi construído recentemente, mas não foi selecionado para carregar pois a cópia publicada na oficina (v{2}) é mais nova.\nAtualize o build.txt e reconstrua o mod ou remova a sua inscrição no mod temporariamente.",
@@ -320,6 +321,7 @@
 		"ReloadRequiredExplanationDisable": "[c/{0}:Desativar]",
 		"ReloadRequiredExplanationConfigChanged": "[c/{0}:Mudar configurações] temporariamente",
 		"ReloadRequiredExplanationConfigChangedRestore": "[c/{0}:Restaurar configurações]",
+		// "ReloadRequiredHostAndPlayModWasDisabledHint": "It is possible that a mod you had previously enabled has errors when run on the server and has been automatically disabled. Check server.log to investigate these issues. Click here to open the FAQ for this issue.",
 
 		// UIAsyncList
 		"ALLoading": "Carregando...",

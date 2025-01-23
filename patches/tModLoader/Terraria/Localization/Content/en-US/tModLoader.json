@@ -321,6 +321,7 @@
 		"ReloadRequiredExplanationDisable": "[c/{0}:Disable]",
 		"ReloadRequiredExplanationConfigChanged": "[c/{0}:Change config] temporarily",
 		"ReloadRequiredExplanationConfigChangedRestore": "[c/{0}:Restore config]",
+		"ReloadRequiredHostAndPlayModWasDisabledHint": "It is possible that a mod you had previously enabled has errors when run on the server and has been automatically disabled. Check server.log to investigate these issues. Click here to open the FAQ for this issue.",
 
 		// UIAsyncList
 		"ALLoading": "Loading...",

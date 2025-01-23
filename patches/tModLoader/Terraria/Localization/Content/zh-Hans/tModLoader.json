@@ -202,6 +202,7 @@
 		"LoadErrorDependencyMissing": "缺少模组：{0} 需求来源：{1}",
 		"LoadErrorErrorReadingModFile": "读取模组文件时发生错误 {0}",
 		"LoadErrorHashMismatchCorrupted": "校验码不匹配, 模组文件已损坏",
+		// "LoadErrorHashMismatchCorruptedWithModName": "Unable to verify integrity of {0}: hash mismatch; data blob has been modified or corrupted",
 		"LoadErrorDependencyVersionTooLow": "{0} 需要 {2}（v{1} 或以上），但你安装的是 v{3}。", // {0}为被依赖的Mod，{1}为需要版本号，{2}为依赖的Mod，{3}为当前版本号
 		"LoadErrorMajorVersionMismatch": "{0} 需要 {2}（v{1}），和你安装的版本（{3}）可能存在兼容问题。 {0} 需要更新。", // {0}为依赖的Mod，{1}为需要版本号，{2}为被依赖的Mod，{3}为当前版本号
 		"LoadErrorRecentlyBuiltLocalModWithLowerVersionWorkshop": "{0} v{1}于近期构建，但未在模组列表内启用，因为在创意工坊订阅的版本（v{2}）较新。\n你可以选择更新build.txt并重新构建模组，或是在创意工坊暂时取消订阅此模组。",
@@ -322,6 +323,7 @@
 		"ReloadRequiredExplanationDisable": "[c/{0}:禁用]",
 		"ReloadRequiredExplanationConfigChanged": "暂时[c/{0}:修改配置]",
 		"ReloadRequiredExplanationConfigChangedRestore": "[c/{0}:恢复配置]",
+		// "ReloadRequiredHostAndPlayModWasDisabledHint": "It is possible that a mod you had previously enabled has errors when run on the server and has been automatically disabled. Check server.log to investigate these issues. Click here to open the FAQ for this issue.",
 
 		// UIAsyncList
 		"ALLoading": "加载中……",

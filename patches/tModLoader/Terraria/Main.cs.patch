@@ -260,6 +260,15 @@
  	public static int renderCount = 99;
  	private const int MF_BYPOSITION = 1024;
  	public static GraphicsDeviceManager graphics;
+@@ -606,7 +_,7 @@
+ 	public static BasicDebugDrawer DebugDrawer;
+ 	public static SamplerState SamplerStateForCursor = SamplerState.LinearClamp;
+ 	public static GenerationProgress AutogenProgress = new GenerationProgress();
+-	private static Process tServer;
++	internal static Process tServer;
+ 	private static Stopwatch saveTime = new Stopwatch();
+ 	public static KeyboardState keyState;
+ 	public static KeyboardState oldKeyState;
 @@ -625,6 +_,9 @@
  	public static float armorAlpha = 1f;
  	public static float[] buffAlpha = new float[BuffID.Count];
